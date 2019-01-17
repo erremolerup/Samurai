@@ -9,6 +9,8 @@ namespace EfSamurai.Data
     public class SamuraiContext : DbContext
     {
         public DbSet<Samurai> Samurais { get; set; }
+        public DbSet<Quotes> Quotes { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
