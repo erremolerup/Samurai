@@ -14,5 +14,8 @@ namespace EfSamurai.Domain
         public List<Quotes> SamuraiQuotes { get; set; }
         //public int QuoteId { get; set; }
         //public string Quote { get; set; }
+
+        public List<Hairdo> Hairdos { get; set; }
+
     }
 }

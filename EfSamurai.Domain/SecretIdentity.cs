@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace EfSamurai.Domain
 {
-    public class Hairdo
+    public class SecretIdentity
     {
         public int Id { get; set; }
-        public string Tag { get; set; } 
 
+        public virtual Samurai Samurai { get; set; }
     }
 }
