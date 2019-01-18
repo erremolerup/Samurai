@@ -17,5 +17,9 @@ namespace EfSamurai.Domain
 
         public List<Hairdo> Hairdos { get; set; }
 
+        public int SecretIdentityId { get; set; }
+        public SecretIdentity SecretIdentity { get; set; }
+
+        public List<SamuraiBattle> SamuraiBattle { get; set; }
     }
 }

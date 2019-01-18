@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace EfSamurai.Domain
 {
-    public class SecretIdentity
+    public class BattleLog
     {
         public int Id { get; set; }
-        public string RealName { get; set; }
 
-        public Samurai Samurai { get; set; }
+        public Battle Battle { get; set; }
+
+        public List<BattleEvent> BattleEvents { get; set; }
+
     }
 }
